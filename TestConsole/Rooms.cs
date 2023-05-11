@@ -191,7 +191,7 @@ namespace TestConsole
             {
                 Name = "Dining Room",
                 Description = "There is a dining table with candles, chairs, and a mirror on the wall.\nThere are exits to the South and East.",
-                Items = new List<string> { "Dining Table","Mirror","Piece of Paper","Coffee Cup" },
+                Items = new List<string> { "Dining Table","Mirror","Servants Note","Coffee Cup" },
                 Dir = new int[6] { -1, 1, 3, -1, -1, -1 },
                 ItemDesc = new List<string> { "Made out of a nice wood. Theres also a coffee cup on here.", "There seems to be a piece of paper behind it.", "It says 'Im going out into the town, if anyone asks say I was out in the fields. - Envy'", "Almost empty." }
                 //East to Living Room 

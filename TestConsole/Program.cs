@@ -48,7 +48,7 @@ namespace TestConsole
             var parser = new Parser();
 
             //interactable
-            parser.AddVerbs("GO", "OPEN", "CLOSE", "SHOW", "LOOK", "INVENTORY", "ITEMS",  "GET", "TAKE", "DROP", "EXAMINE", "HELP", "QUIT", "ACCUSE", "TALK", "SUSPECT", "SMALL KEY", "COUCH", "COFFEE TABLE", "RUG", "FIREPLACE", "PLANT", "BATHTUB", "SHOWER", "LAUNDRY BASKET", "BLOOD", "SINK", "BANDAGES", "ClEANING SUPPLIES", "POUCH", "STAIRCASE", "PLANT", "DINING TABLE", "MIRROR", "TRASH BAG", "KITCHEN KNIVES", "CABINETS", "KITCHEN ISLAND", "STAIRS", "BED", "BROKEN GLASS", "ALCOHOL BOTTLES", "COMPUTER", "BOWL", "TOWELS", "DIRTY CLOTHES", "SILVER KEY", "FALLEN BOOK", "SERVANT'S NOTE", "COFFEE CUP", "CHECK BOOK", "LOVE LETTERS", "LIPSTICK", "PLATE", "CHEST", "DUEL CLOTHES", "SWORD", "DUEL NOTE", "RADIO", "BAG", "BOOKS", "LETTERS", "SERVANT CALENDAR", "DIARY", "DRESSERS", "BANK STATEMENT", "DEBT LETTER", "SMALL BOTTLE", "FANCY NOTE", "JOURNAL");
+            parser.AddVerbs("GO", "OPEN", "CLOSE", "SHOW", "LOOK", "INVENTORY", "ITEMS",  "GET", "TAKE", "DROP", "EXAMINE", "HELP", "QUIT", "ACCUSE", "TALK", "SUSPECT", "SMALL KEY", "COUCH", "COFFEE TABLE", "RUG", "FIREPLACE", "PLANT", "BATHTUB", "SHOWER", "LAUNDRY BASKET", "BLOOD", "SINK", "BANDAGES", "ClEANING SUPPLIES", "POUCH", "STAIRCASE", "PLANT", "DINING TABLE", "MIRROR", "TRASH BAG", "KITCHEN KNIVES", "CABINETS", "KITCHEN ISLAND", "STAIRS", "BED", "BROKEN GLASS", "ALCOHOL BOTTLES", "COMPUTER", "BOWL", "TOWELS", "DIRTY CLOTHES", "SILVER KEY", "FALLEN BOOK", "SERVANTS NOTE", "COFFEE CUP", "CHECK BOOK", "LOVE LETTERS", "LIPSTICK", "PLATE", "CHEST", "DUEL CLOTHES", "SWORD", "DUEL NOTE", "RADIO", "BAG", "BOOKS", "LETTERS", "SERVANT CALENDAR", "DIARY", "DRESSERS", "BANK STATEMENT", "DEBT LETTER", "SMALL BOTTLE", "FANCY NOTE", "JOURNAL");
             parser.AddImportantFillers("TO", "ON", "IN", "WITH");
             parser.AddUnimportantFillers("THE", "A", "AN", "AT");
             parser.AddNouns(
@@ -67,7 +67,7 @@ namespace TestConsole
                 "DIRTY CLOTHES",
                 "SILVER KEY",
                 "FALLEN BOOK",
-                "SERVANT'S NOTE",
+                "SERVANTS NOTE",
                 "COFFEE CUP",
                 "CHECK BOOK",
                 "LOVE LETTERS",
@@ -109,6 +109,7 @@ namespace TestConsole
             parser.Aliases.Add("DUEL NOTE", "NOTE");
             parser.Aliases.Add("DUEL CLOTHES", "RIPPED CLOTHES");
             parser.Aliases.Add("JOURNAL", "J");
+           // parser.Aliases.Add("SERVANTS NOTE", "SERVANT NOTE");
 
             return parser;
         }
@@ -388,9 +389,9 @@ namespace TestConsole
                         Console.WriteLine("Made out of a nice wood. Theres also a coffee cup on here.");
                         break;
                     case "MIRROR":
-                        Console.WriteLine("There seems to be a piece of paper behind it.");
+                        Console.WriteLine("There seems to be a note from a servant behind it.");
                         break;
-                    case "SERVANT'S NOTE":
+                    case "SERVANTS NOTE":
                         Console.WriteLine("It says 'Im going out into the town, if anyone asks say I was out in the fields. - Envy'");
                         break;
                     case "COFFEE CUP":
