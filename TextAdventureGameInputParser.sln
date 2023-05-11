@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextAdventureGameInputParser", "TextAdventureGameInputParser\TextAdventureGameInputParser.csproj", "{0A531865-E8EC-4D2B-AA8B-11037D020F8E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestConsole", "TestConsole\TestConsole.csproj", "{522154D7-70CA-4392-85DB-BC4EF1F1087C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A531865-E8EC-4D2B-AA8B-11037D020F8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A531865-E8EC-4D2B-AA8B-11037D020F8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A531865-E8EC-4D2B-AA8B-11037D020F8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A531865-E8EC-4D2B-AA8B-11037D020F8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{522154D7-70CA-4392-85DB-BC4EF1F1087C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{522154D7-70CA-4392-85DB-BC4EF1F1087C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{522154D7-70CA-4392-85DB-BC4EF1F1087C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{522154D7-70CA-4392-85DB-BC4EF1F1087C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F344B377-9A33-4D63-83BB-9F74AE37F022}
+	EndGlobalSection
+EndGlobal

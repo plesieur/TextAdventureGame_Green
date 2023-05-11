@@ -1,0 +1,16 @@
+﻿Some of the bug notes have been posted in the CS files.
+
+NOTES:
+- Typing 'go' and then the name of a character caises a crash and gives the following message:
+  "System.IndexOutOfRangeException: 'Index was outside the bounds of the array.'"
+
+- Typing 'examine' and the name of suspect does nothing and gives the following message in the console:
+  "That doesn't exist. Let that sink in."
+
+- Not sure if this is a bug, but whenever 'push' and the name of a suspect is typed it just says "[suspect]: reaction".
+
+- Typing "go [direction]" or just "[direction]" makes no difference. Why is 'go' a command?
+
+- I'm still able to talk to suspects when there's none in the room I'm in.
+
+- 
